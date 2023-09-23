@@ -1,0 +1,65 @@
+.App {
+    font-family: Arial, sans-serif;
+    width: 320px;
+    margin: 50px auto;
+    border: 3px solid #121212;
+    border-radius: 12px;
+    padding: 3%;
+    background-color: #191919
+}
+
+.display {
+    background-color: #191919;
+    color: #ffffff; /* Display Text */
+    text-align: right;
+    padding: 15px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    font-size: 60px;
+    border: 2px solid #0d0d0d;
+    border-radius: 8px;
+}
+
+.display, button {
+    font-family: 'Quicksand', sans-serif; 
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+button {
+    background-color: #191919;  
+    color: #ffffff;
+    padding: 25px;
+    font-size: 24px;
+    cursor: pointer;
+    border: 2px solid #0d0d0d;
+    border-radius: 8px;
+}
+
+button:active {
+    transform: scale(0.95);  /* Shrinks the button slightly when pressed */
+}
+
+button:hover {
+    background-color: #0b0b0b;  /* Change to any color you like */
+}
+
+body {
+    background-color: #141414;  /* Replace #f2f2f2 with your desired color */
+}
+
+.equals {
+    background-color: #a160fb;  
+}
+
+.equals:hover {
+    background-color: #7b1ffc;  /* A different shade of orange for hover */
+}
+
+
+
